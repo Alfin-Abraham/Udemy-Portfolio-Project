@@ -13,17 +13,32 @@ h1 {
 .contact {
     text-align: center; font-size: large;
 }
+.contact a[href^="tel"] {
+    text-decoration: none;
+}
 
 .contact a:link,
-.my_footer a:link {
+.my_footer_downloader a:link {
     color: dodgerblue;
 }
 
 .contact a:visited,
-.my_footer a:visited {
+.my_footer_downloader a:visited {
     color:dodgerblue;
 }
 .contact a:hover,
-.my_footer a:hover {
+.my_footer_downloader a:hover {
     color:lightgreen;
+}
+
+.my_footer_downloader {
+    text-align: center;
+    margin: 0em;
+}
+.my_footer_downloader a {
+    text-decoration:none;
+}
+.my_footer_copyright {
+    text-align: center;
+    margin: 0.3em;
 }
