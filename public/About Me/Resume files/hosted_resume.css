@@ -18,6 +18,11 @@ h1 {
 .my_footer a:link {
     color: dodgerblue;
 }
+
+.contact a:visited,
+.my_footer a:visited {
+    color:dodgerblue;
+}
 .contact a:hover,
 .my_footer a:hover {
     color:lightgreen;
