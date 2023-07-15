@@ -1,44 +1,92 @@
 /* This file contains the CSS code for hosted_resume.html file.  */
 
 body {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: Arial, sans-serif;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-family:Arial, sans-serif;
 }
+
 
 h1 {
-    text-align: center;
+    text-align:center;
+    color:rgb(49, 216, 7);
+    margin-bottom:0em;
 }
 
+
 .contact {
-    text-align: center; font-size: large;
+    text-align:center;
+    font-size:large;
 }
 .contact a[href^="tel"] {
-    text-decoration: none;
+    text-decoration:none;
 }
+
 
 .contact a:link,
 .my_footer_downloader a:link {
-    color: dodgerblue;
+    color:cornflowerblue;
 }
-
 .contact a:visited,
 .my_footer_downloader a:visited {
-    color:dodgerblue;
+    color:cornflowerblue;
 }
 .contact a:hover,
 .my_footer_downloader a:hover {
-    color:lightgreen;
+    color:rgb(239, 228, 17);
 }
 
+
 .my_footer_downloader {
-    text-align: center;
+    text-align:center;
     margin: 0em;
 }
 .my_footer_downloader a {
     text-decoration:none;
 }
 .my_footer_copyright {
-    text-align: center;
-    margin: 0.3em;
+    text-align:center;
+    margin:0.3em;
+}
+
+
+.headings {
+    font-size:1.3em;
+    font-weight:bold;
+    color:rgb(238, 17, 102);
+    margin-top:1.3em;
+    margin-bottom:0em;
+}
+
+
+table {
+    font-size:large;
+    width:100%;
+}
+.td_row_1a {
+    text-align:left;
+    color: rgb(1, 161, 247);
+    font-weight:bold;
+}
+.td_col_b {
+    text-align:right;
+}
+.td_col_a {
+    text-align:left;
+}
+
+
+ul {
+    font-size:large;
+}
+li {
+    margin:0.65em 0;
+}
+
+
+.project_title {
+    font-weight:bold;
+    font-size:large;
+    color: rgb(1, 161, 247);
+    text-align:left;
 }
