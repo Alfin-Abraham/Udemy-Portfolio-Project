@@ -1,0 +1,14 @@
+/* This file contains the CSS code for about.html and contact.html */
+h1 {
+    font-family:'Lucida Sans', sans-serif;
+    color: rgb(20, 110, 220);
+    font-weight: 400;
+}
+
+p, ol {
+    font-size: large;
+}
+
+address {
+    font-size: large;
+}
