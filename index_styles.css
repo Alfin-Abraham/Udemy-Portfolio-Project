@@ -1,0 +1,40 @@
+/* This file contains the CSS code for index.html file */
+h1 {
+    font-family:'Lucida Sans', sans-serif;
+    color: rgb(20, 110, 220);
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    text-align: center;
+}
+
+a {
+    color: rgb(0, 64, 255);
+}
+
+.my_footer_hr {
+    margin-top: 50px;
+}
+
+.my_footer_p1 {
+    margin-top: 0em;
+    margin-bottom: 0.7em;
+}
+
+.my_footer_a {
+    color: blue;
+    font-size: large;
+}
+
+.my_footer_p2 {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+
+.my_footer_copyright {
+    text-decoration: none;
+    color: blue;
+}
