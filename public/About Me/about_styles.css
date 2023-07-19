@@ -20,3 +20,21 @@ address {
 a {
     color: dodgerblue;
 }
+
+.back_home_button {
+    background: linear-gradient(45deg, rgb(4, 177, 4), rgb(81, 215, 81));
+    color: whitesmoke;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.back_home_button:hover {
+    background: linear-gradient(45deg, rgb(68, 174, 68), rgb(5, 152, 5));
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+}
