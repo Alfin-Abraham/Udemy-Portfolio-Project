@@ -1,0 +1,121 @@
+/* File: indian-flag.css */
+/* Author: Alfin Abraham */
+/* Created: 2023-08-15 */
+/* Last Modified: 2023-08-15 */
+/* Description: This file contains the CSS code for the  indian-flag.html file */
+
+/* License: MIT License */
+/* You can find the full text of the MIT License at: */
+/* https://opensource.org/licenses/MIT */
+
+
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+/* The super-container class holds all the classes that pertain to the flag */
+.super-container {
+    /* Following four properties will center a div*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* The container class holds all the classes that design the flag.
+   This partition from the super-container class let's us freely move the flag anywhere on the screen. */
+.container {
+    width: 400px;
+    height: 250px;
+}
+
+/* CSS for the saffron stripe of the flag */
+.saffron-stripe {
+    width: 100%;
+    height: 33%;
+    background-color: rgb(255, 153, 51);
+    border-top: 4px solid rgb(255, 153, 51);
+    border-left: 4px solid rgb(255, 153, 51);
+    border-right: 4px solid rgb(255, 153, 51);
+}
+
+/* CSS for the white stripe of the flag and the ashoka chakra in it */
+.white-stripe {
+    width: 100%;
+    height: 34%;
+    background-color: rgb(255, 255, 255);
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* CSS for the green stripe of the flag */
+.green-stripe {
+    width: 100%;
+    height: 33%;
+    background-color: rgb(19, 136, 8);
+    border-bottom: 4px solid rgb(19, 136, 8);
+    border-left: 4px solid rgb(19, 136, 8);
+    border-right: 4px solid rgb(19, 136, 8);
+}
+
+/* CSS for the ashoka chakra of the flag */
+.ashoka-chakra {
+    outline: 2px solid rgb(0, 0, 128);
+    height: 74%;
+    width: 15%;
+    margin-top: 8.5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* CSS for the 24 spokes of the ashoka chakra */
+.line {
+    background-color: rgb(0, 0, 128);
+    height: 100%;
+    width: 2%;
+    position: absolute;
+}
+
+/* Following 12 children of the line class rotate at 15 degree increments to portray the 24 spokes */
+.line:nth-child(1) {
+    transform:rotate(15deg);
+}
+.line:nth-child(2) {
+    transform: rotate(30deg);
+}
+.line:nth-child(3) {
+    transform: rotate(45deg);
+}
+.line:nth-child(4) {
+    transform: rotate(60deg);
+}
+.line:nth-child(5) {
+    transform: rotate(75deg);
+}
+.line:nth-child(6) {
+    transform: rotate(90deg);
+}
+.line:nth-child(7) {
+    transform: rotate(105deg);
+}
+.line:nth-child(8) {
+    transform: rotate(120deg);
+}
+.line:nth-child(9) {
+    transform: rotate(135deg);
+}
+.line:nth-child(10) {
+    transform: rotate(150deg);
+}
+.line:nth-child(11) {
+    transform: rotate(165deg);
+}
+.line:nth-child(12) {
+    transform: rotate(180deg);
+}
