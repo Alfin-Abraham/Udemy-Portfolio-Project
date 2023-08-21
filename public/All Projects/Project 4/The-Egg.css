@@ -1,0 +1,70 @@
+/* File: The-Egg.css */
+/* Author: Alfin Abraham */
+/* Created: 2023-08-16 */
+/* Last Modified: 2023-08-20 */
+/* Description: This file contains the CSS code for The-Egg.html file */
+
+/* License: MIT License */
+/* You can find the full text of the MIT License at: */
+/* https://opensource.org/licenses/MIT */
+
+
+.background {
+    display: flex;
+    position: absolute;
+    inset: 0px;
+    height: 100vh;
+    background-color: rgb(227, 50, 27);
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    max-height: 90%;
+    width: 55%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 208, 255, 0.804);
+    box-shadow: 10px 10px 50px 20px rgba(26, 25, 25, 0.526);
+    border-radius: 45px;
+}
+
+h1, h2, p {
+    margin: 7px;
+}
+
+h1 {
+    font-family: 'Lucida Sans';
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 100;
+    font-family: 'Lucida Sans';
+}
+
+p {
+    font-family: 'Helvetica';
+    
+}
+
+#content {
+    font-family: Verdana;
+    margin: 10px;
+}
+
+mark {
+    background-color: rgba(255, 255, 0, 0.622) ;
+}
+
+iframe {
+    margin: 20px;
+    border-style: none;
+    border-radius: 35px;
+    width: 400px;
+    height: 685px;
+    box-shadow: 4px 6px 30px 0px rgba(26, 25, 25, 0.64);
+}
