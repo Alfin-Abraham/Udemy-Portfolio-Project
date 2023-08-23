@@ -9,12 +9,8 @@
 /* https://opensource.org/licenses/MIT */
 
 
-.background {
-    display: flex;
-    position: absolute;
-    inset: 0px;
-    height: 100vh;
-    background-color: rgb(227, 50, 27);
+body {
+    background-color: rgba(234, 19, 62, 0.897);
 }
 
 .container {
